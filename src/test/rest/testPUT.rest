@@ -1,0 +1,10 @@
+PUT http://localhost:8080/api/compactdiscs
+Content-type: application/json
+
+{
+    "id" : 9,
+    "title" : "Is This It",
+    "artist" : "CHANGED ARTIST",
+    "price" : "13.99",
+    "tracks" : "11"
+}

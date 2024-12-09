@@ -1,0 +1,22 @@
+Phase 1:
+Database -
+    Entities -
+        User(name, FK(contact_info), FK(account_details)) - Rutvi
+            - API - add, get, delete, update
+
+        AccountDetails(current_balance, net_worth, ... ) - Manraj
+            - API - add, get, delete, update
+
+        ContactInfo(phone, email, ...) - Neha
+            - API - add, get, delete, update
+
+        BoughtStocks(name, buy_date, ticker_symbol, volume) - Maya
+            - API - add, get, delete, update
+
+        (Post)
+        History(date, open, close, ..., FK(ticker_symbol)) - follow scheme of API - Mohammed
+            - mock data for now
+            - market_cap, 52_week_low, 52_week_high, dividends, p_ratio
+
+        (Post)
+        SummaryStatistics()
